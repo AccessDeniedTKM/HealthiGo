@@ -1,0 +1,14 @@
+.bgimage{
+    background-image: url("https://3.bp.blogspot.com/-B5ELAwZBS2I/XNTwclI8r6I/AAAAAAAANNM/u-hoGYH8I3w4h6hOcKCXMTp3UU3E2anxgCLcBGAs/s1600/background%2Bpowerpoint%2Bmedical%2Bstethoscope.JPG");
+    height: 650px;
+    background-size: cover;
+  }
+  .bimage{
+    background-image: url("https://images.pexels.com/photos/4033148/pexels-photo-4033148.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    height: 100vh;
+    background-size: cover;
+  }
+  .bb{
+      width: 200px;
+  }
+  

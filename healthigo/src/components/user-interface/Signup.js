@@ -2,10 +2,22 @@ import React, { useState,useContext } from 'react';
 //import { useHistory } from 'react-router-dom';
 
 import './Signup.css';
+const fs = require("fs");
 
 export default function Signup() {
 
-
+function enterDetails(email,password){
+  let usersjson = fs.readFileSync("signup.json","utf-8");
+  let users = JSON.parse(usersjson);
+  let obj={
+    email:"email",
+    password:"password"
+  }
+  users.push(obj);
+  usersjson = JSON.stringify(users);
+  fs.writeFileSync("signup.json",usersjson,"utf-8");
+  
+}
   return (
     <div className="container col-md-5 mt-5">
       <form>
@@ -27,7 +39,7 @@ export default function Signup() {
     <input type="checkbox" className="form-check-input" id="exampleCheck1" />
     <label className="form-check-label" for="exampleCheck1">Check me out</label>
   </div>
-  <a type="submit" href="/login" className="btn btn-primary">Submit</a>
+  <a type="submit" onClick={enterDetails}  className="btn btn-primary">Submit</a>
   <br />
   <a href="/login">Already have an account? Sign in</a>
 </form>

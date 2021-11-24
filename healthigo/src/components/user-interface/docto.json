@@ -1,0 +1,61 @@
+[ 
+{
+    "id": "1",
+    "name": "ALan Jose",
+    "qualification": "General physician"
+},
+
+{
+    "id": "2",
+    "name":"Mark Jacob",
+    "qualification":"Paediatrician"
+},
+
+{
+    "id": "3",
+    "name":"Jacob Thorton",
+    "qualification":"Cardiac Surgeon"
+
+},
+
+{
+    "id": "4",
+    "name":"Aarathi B",
+    "qualification":"General Physician"
+
+},
+
+{
+    "id": "4",
+    "name":"Appu Thomos",
+    "qualification":"Nephrologist"
+
+},
+
+{
+    "id": "5",
+    "name":"Baby Joseph",
+    "qualification":"Oncologist"
+
+},
+{
+    "id": "6",
+    "name":"Susan Varghese",
+    "qualification":"Psychiatrist"
+
+},
+
+{
+    "id": "7",
+    "name":"Anna Lein",
+    "qualification":"Urologist"
+
+},
+
+{
+    "id": "8",
+    "name":"Neel Prasd",
+    "qualification":"Dermatologist"
+
+}
+]
