@@ -6,6 +6,8 @@ import User from "./components/user-interface/user";
 import Home from "./components/user-interface/home";
 import Signup from "./components/user-interface/Signup";
 import Login from "./components/user-interface/Login";
+import Doctorname from "./components/user-interface/doctorname";
+import Docdetails from "./components/user-interface/docdetails";
 
 // import { Router } from "express";
 
@@ -22,6 +24,9 @@ function App() {
           <Route path="/login" element={<Login />}></Route>
           <Route path="/signup" element={<Signup />}></Route>
           <Route path="/home" element={<Home />}></Route>
+          <Route path="/doctors" element={<Doctorname />}></Route>
+          <Route path="/docdetails" element={<Docdetails />}></Route>
+
 
 
         </Routes>
