@@ -43,6 +43,7 @@ function enterDetails(email,password){
   <br />
   <a href="/login">Already have an account? Sign in</a>
 </form>
+
     </div>
   );
 }
