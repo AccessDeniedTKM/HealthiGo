@@ -14,6 +14,8 @@ import Homebb from "./components/user-interface/homebb";
 import Donation from "./components/user-interface/donation";
 import Receive from "./components/user-interface/receive";
 import Apositive from "./components/user-interface/apositive";
+import Med from "./components/user-interface/med";
+
 
 
 
@@ -44,6 +46,8 @@ function App() {
           <Route path="/donation" element={<Donation />}></Route>
           <Route path="/receive" element={<Receive />}></Route>
           <Route path="/apositive" element={<Apositive />}></Route>
+          <Route path="/med" element={<Med />}></Route>
+
 
 
 

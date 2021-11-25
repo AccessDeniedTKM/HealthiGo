@@ -22,7 +22,7 @@ function home() {
     <div className="card m-3 col-md-3" style={{ width: "16epm" }}>
       <h2>Order medicine</h2>
       <h6 className="mt-3" style={{color:"gray"}}>Get the medicines at your doorsteps within a couple of minutes</h6>
-      <a href="/user" className="btn btn-outline-success">Go to page</a>
+      <a href="/med" className="btn btn-outline-success">Go to page</a>
     </div>
     </div>
 

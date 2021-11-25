@@ -11,4 +11,9 @@
   .bb{
       width: 200px;
   }
-  
+  .backimage{
+    background-image: url("medi.jpg.jpg");
+    height: 100vh;
+    background-size: cover;
+
+  }
