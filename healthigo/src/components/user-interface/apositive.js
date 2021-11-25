@@ -32,6 +32,7 @@ export default function apositive() {
     </tr>
   </tbody>
 </table>
+<a className="btn btn-primary right mt-4 ml-3" href="/home">Go to dashboard</a>
         </div>
     )
 }

@@ -8,7 +8,7 @@ function homebb() {
               
       <h1>Blood donations and receiving</h1>
     </header>
-    <div  style={{paddingTop:"70px", paddingLeft:"500px"}}>
+    <div  style={{paddingTop:"60px", paddingLeft:"500px"}}>
         <div className="row">
          <div className="col-md-5" >
             <div className="card bb ">
@@ -17,7 +17,7 @@ function homebb() {
   <a href="/donation">  
      <img
       src="https://media.istockphoto.com/vectors/donate-blood-concept-with-blood-bag-and-heart-blood-donation-vector-vector-id1033906526"
-      className="img-fluid img" style={{width:"200px",height:"200px"}} 
+      className="img-fluid img" style={{width:"400px",height:"200px"}} 
     /></a>
     <a href="#!">
       <div className="mask" style={{color:"green"} }></div>
@@ -32,13 +32,13 @@ function homebb() {
 </div>
 </div>
 <div className="col-md-5">
-<div style={{paddingLeft:"0px"}}>
+<div style={{paddingLeft:"180px"}}>
 <div className="card bb" >
 <div className="bg-image hover-overlay ripple" data-mdb-ripple-color="light" >
  <a href="/receive">
       <img
       src="https://www.awarenessdays.com/wp-content/uploads/2018/07/iStock-693244582.jpg"
-      className="img-fluid img" style={{width:"200px",height:"200px"}} 
+      className="img-fluid img" style={{width:"400px",height:"200px"}} 
     /></a>
     <a href="#!">
       <div className="mask" style={{color:"green"} }></div>

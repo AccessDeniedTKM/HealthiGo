@@ -42,7 +42,7 @@ function home() {
     <div className="card m-3 col-md-3" style={{ width: "16epm" }}>
       <h2>Health status</h2>
       <h6 className="mt-3" style={{color:"gray"}}>Check your health status and keep your body healthy</h6>
-      <a href="/user" className="btn btn-outline-success">Go to page</a>
+      <a href="/hstatus" className="btn btn-outline-success">Go to page</a>
     </div>
     </div>
   </div>

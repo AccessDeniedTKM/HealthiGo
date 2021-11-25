@@ -15,10 +15,9 @@ import Donation from "./components/user-interface/donation";
 import Receive from "./components/user-interface/receive";
 import Apositive from "./components/user-interface/apositive";
 import Med from "./components/user-interface/med";
-
-
-
-
+import Hstatus from "./components/user-interface/hstatus";
+import Healthprofile from "./components/user-interface/healthprofile";
+import Info from "./components/user-interface/info";
 
 
 
@@ -47,6 +46,12 @@ function App() {
           <Route path="/receive" element={<Receive />}></Route>
           <Route path="/apositive" element={<Apositive />}></Route>
           <Route path="/med" element={<Med />}></Route>
+          <Route path="/hstatus" element={<Hstatus />}></Route>
+          <Route path="/healthprofile" element={<Healthprofile />}></Route>
+          <Route path="/info" element={<Info />}></Route>
+
+
+
 
 
 

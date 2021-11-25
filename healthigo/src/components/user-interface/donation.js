@@ -7,7 +7,7 @@ export default function donation() {
 <header className="w3-container w3-blue float-left" style={{paddingLeft:"300px"}} >
               
       <h1>Donations</h1>
-    </header>            <div className="form-outline ml-4 mt-4" style={{width:"200px"}} >
+    </header>  <div className="form-outline ml-4 mt-4" style={{width:"200px"}} >
   <input type="text" id="typeText" className="form-control" placeholder="Name"/>
   <label className="form-label" for="typeText"></label>
 </div>
@@ -35,6 +35,8 @@ export default function donation() {
   <option value="Rajasthan">Rajasthan</option>
 </select>
 </div>
+<button className="btn btn-success mt-4 ml-4" onClick={()=>alert("You have shown your interest to donate blood")}>Donate</button>
+<a className="btn btn-primary right mt-4 ml-3" href="/home">Go to dashboard</a>
  </div>
     )
 }

@@ -18,6 +18,7 @@ function docdetails() {
       <p>Address: MG street,India</p>
     </pre>
     <button type="button" className="btn btn-primary">Book</button>
+    <a className="btn btn-primary right mt-1 ml-5" href="/home">Go to dashboard</a>
   </div>
 </div>
         </div>
